@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="tleyden"   fetch="git://github.com/tleyden/" />
+  <remote name="emirpasic"   fetch="git://github.com/emirpasic/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -144,6 +145,7 @@
   <project name="opentracing-go"  remote="couchbasedeps" revision="1949ddbfd147afd4d964a9f00b24eb291e0e7c38" path="godeps/src/github.com/opentracing/opentracing-go"/>
   <project name="grpc-go"         remote="couchbasedeps" revision="afc05b9e1d36f289ea16ba294894486a3e458246" path="godeps/src/google.golang.org/grpc"/>
   <project name="go-genproto"     remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
+  <project name="gods"     remote="emirpasic" revision="7c131f6714175bd4ce484da1f348260c79db3069" path="godeps/src/github.com/emirpasic/gods"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a" groups="kv"/>
